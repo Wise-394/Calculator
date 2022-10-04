@@ -1,8 +1,8 @@
 #include <Stdio.h>
 int main ()
 {
-int op,num1,num2,done=0;
-float ans;	
+int op,done=0;
+float num1,num2,ans;	
 	printf ("CALCULATOR\n");
 	do 
 	{
@@ -14,35 +14,35 @@ float ans;
 	
 		case (1):
 			printf ("enter 1st number:");
-			scanf  ("%d",&num1);
+			scanf  ("%f",&num1);
 			printf ("enter 2nd number:");
-			scanf  ("%d",&num2);
+			scanf  ("%f",&num2);
 			ans = num1 + num2 ;
-			printf ("%d + %d is: %f",num1,num2,ans);
+			printf ("%f + %f is: %f",num1,num2,ans);
 			break;
 		case (2):
 			printf ("enter 1st number:");
-			scanf  ("%d",&num1);
+			scanf  ("%f",&num1);
 			printf ("enter 2nd number:");
-			scanf  ("%d",&num2);
+			scanf  ("%f",&num2);
 			ans = num1 - num2 ;
-			printf ("%d - %d is: %f",num1,num2,ans);
+			printf ("%f - %f is: %f",num1,num2,ans);
 			break;
 		case (3):
 			printf ("enter 1st number:");
-			scanf  ("%d",&num1);
+			scanf  ("%f",&num1);
 			printf ("enter 2nd number:");
-			scanf  ("%d",&num2);
+			scanf  ("%f",&num2);
 			ans = num1 * num2 ;
-			printf ("%d * %d is: %f",num1,num2,ans);
+			printf ("%f * %f is: %f",num1,num2,ans);
 			break;
 		case (4):
 			printf ("enter 1st number:");
-			scanf  ("%d",&num1);
+			scanf  ("%f",&num1);
 			printf ("enter 2nd number:");
-			scanf  ("%d",&num2);
+			scanf  ("%f",&num2);
 			ans = num1 / num2 ;
-			printf ("%d / %d is: %f",num1,num2,ans);
+			printf ("%f / %f is: %f",num1,num2,ans);
 			break;
 	}
 	printf ("\n-------------------------\n");
