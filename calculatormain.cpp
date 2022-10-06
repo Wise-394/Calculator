@@ -1,4 +1,4 @@
-#include <Stdio.h>
+#include <stdio.h>
 int main ()
 {
 int op,done=0;
